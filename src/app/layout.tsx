@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s | Graveyard Gold",
   },
   description:
-    "Before you quit your job, let 1,700 dead startups review your idea. AI-powered startup idea validation based on real failure data.",
+    "Before you quit your job, let 1,749 dead startups review your idea. AI-powered startup idea validation based on real failure data.",
   keywords: ["startup validation", "idea validation", "failure analysis", "startup risk assessment", "AI startup analysis"],
   openGraph: {
     title: "Graveyard Gold – Validate Your Startup Idea Against 1,749 Failures",
