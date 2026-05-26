@@ -99,7 +99,7 @@ export default function Home() {
   ]
 
   const competitors = [
-    { name: "Graveyard Gold", ai: true, data: true, action: true, price: "$29–$99" },
+    { name: "Graveyard Gold", ai: true, data: true, action: true, price: isZh ? "免费（早期）" : "Free (Early)" },
     { name: "ChatGPT", ai: true, data: false, action: false, price: "$20" },
     { name: "LivePlan", ai: false, data: false, action: false, price: "$20" },
     { name: "Stratup.ai", ai: true, data: false, action: false, price: isZh ? "免费" : "Free" },
@@ -165,7 +165,7 @@ export default function Home() {
       <section className="px-4 py-12 text-center">
         <p className="text-sm text-neutral-500 mb-4">{t("stats.label")}</p>
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-2xl sm:text-3xl font-bold">
-          <span className="text-purple-400">1,749</span>
+          <span className="text-purple-400">1,700+</span>
           <span className="text-neutral-400">{t("stats.failed")}</span>
           <span className="text-neutral-600">·</span>
           <span className="text-purple-400">$535B+</span>
