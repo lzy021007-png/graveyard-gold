@@ -16,14 +16,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Graveyard Gold – Validate Your Startup Idea Against 1,749 Failures",
+    default: "Graveyard Gold – Validate Your Startup Idea Against 1,700+ Failures",
     template: "%s | Graveyard Gold",
   },
   description:
-    "Before you quit your job, let 1,749 dead startups review your idea. AI-powered startup idea validation based on real failure data.",
+    "Before you quit your job, let 1,700+ dead startups review your idea. AI-powered startup idea validation based on real failure data.",
   keywords: ["startup validation", "idea validation", "failure analysis", "startup risk assessment", "AI startup analysis"],
   openGraph: {
-    title: "Graveyard Gold – Validate Your Startup Idea Against 1,749 Failures",
+    title: "Graveyard Gold – Validate Your Startup Idea Against 1,700+ Failures",
     description: "AI-powered startup idea validation. Compare your idea against real failure patterns from startup history.",
     type: "website",
   },

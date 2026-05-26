@@ -35,8 +35,8 @@ export default function Home() {
       icon: BrainCircuit,
       title: isZh ? "AI 深度分析" : "AI Deep Analysis",
       desc: isZh
-        ? "基于 1,749 失败案例的 AI 分析引擎。将你的想法与真实失败模式进行匹配——发现你尚未意识到的致命缺陷。"
-        : "Powered by AI. Match your idea against failure patterns from 1,749 dead startups — identify fatal flaws you haven't considered yet.",
+        ? "基于 1,700+ 失败案例的 AI 分析引擎。将你的想法与真实失败模式进行匹配——发现你尚未意识到的致命缺陷。"
+        : "Powered by AI. Match your idea against failure patterns from 1,700+ dead startups — identify fatal flaws you haven't considered yet.",
     },
     {
       icon: Shield,
