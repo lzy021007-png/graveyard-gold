@@ -42,3 +42,5 @@ src/data/.translate-progress.json
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
