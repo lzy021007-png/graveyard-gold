@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Header, Footer } from "@/components/layout/header";
+import { Analytics } from "@vercel/analytics/react";
 import { ClientProviders } from "@/components/layout/client-providers";
 import "./globals.css";
 
@@ -58,6 +59,22 @@ export default function RootLayout({
             `,
           }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+            `,
+          }}
+        />
+        <script defer src="/_vercel/speed-insights/script.js" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+            `,
+          }}
+        />
+        <script defer src="/_vercel/insights/script.js" />
       </head>
       <body className="min-h-full flex flex-col bg-neutral-950 text-neutral-200 notranslate">
         <ClientProviders>
@@ -65,6 +82,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </ClientProviders>
+        <Analytics />
       </body>
     </html>
   );
